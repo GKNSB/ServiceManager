@@ -219,7 +219,7 @@ namespace ServiceManager
 
 		public static readonly string Instruction = "ServiceManager.exe - Remotely manage services with .Net's ServiceController\r\n\r\n"
 													+ "Usage:\r\n"
-													+ "svcmgr [ computer name ] [ service name ] [ action ] [ additional flags ]\r\n\r\n"
+													+ "Servicemanager.exe [ computer name ] [ service name ] [ action ] [ additional flags ]\r\n\r\n"
 													+ Args.STATUS + "            Display the status of one or all service(s).\r\n"
 													+ Args.RESTART + "           Restart a service.\r\n"
 													+ Args.STOP + "              Stop a service.\r\n"
